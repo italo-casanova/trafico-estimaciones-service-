@@ -1,16 +1,15 @@
 package uni.edu.pe.transito.dao;
 
-import lombok.Data;
-import lombok.AllArgsConstructor;
 
-import uni.edu.pe.transito.dto.Arista;
 import uni.edu.pe.transito.dto.Nodo;
+import uni.edu.pe.transito.dto.rest.Aristas;
 
-@Data
-@AllArgsConstructor
+import java.util.ArrayList;
+
 public interface AristaDao {
 
-    public Arista getArista();
-    public Arista getArista(Nodo nodo);
+    public Aristas getArista();
+    public Aristas getArista(Nodo nodo);
+
 
 }

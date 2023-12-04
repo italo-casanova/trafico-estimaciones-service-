@@ -11,8 +11,8 @@ import java.util.Date;
 @AllArgsConstructor
 public class Mensaje {
 
-    private Date fecha = new Date();
-    private String id;
+    private Date fecha;
+    private String id, macDestino, macOrigen;
     private float latitud, longitud;
 
 }
